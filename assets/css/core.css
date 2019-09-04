@@ -9941,7 +9941,7 @@ figure.team-slanted:hover .member-position {
 /*! _landing.scss | Bulkit | CSS Ninja */
 
 #landing-hero {
-	background: #279090 url(../images/bg/shapes/icon-bg.png) repeat 0 0;
+	background: #279090 url(../../img/bg/icon-bg.png) repeat 0 0;
 	-webkit-animation: 18s linear 0s normal none infinite animate;
 	animation: 18s linear 0s normal none infinite animate
 }
