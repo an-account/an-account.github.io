@@ -9941,9 +9941,9 @@ figure.team-slanted:hover .member-position {
 /*! _landing.scss | Bulkit | CSS Ninja */
 
 #landing-hero {
-	background: #279090 url(../../img/bg/icon-bg.png) repeat 0 0;
-	-webkit-animation: 18s linear 0s normal none infinite animate;
-	animation: 18s linear 0s normal none infinite animate
+	background: #279090 url(../../img/bg/icon-bg.png) 100%/100% repeat;
+	-webkit-animation: 60s linear 0s normal none infinite animate;
+	animation: 60s linear 0s normal none infinite animate
 }
 
 @-webkit-keyframes animate {
@@ -9951,7 +9951,7 @@ figure.team-slanted:hover .member-position {
 		background-position: 0 0
 	}
 	to {
-		background-position: 0 -1450px
+		background-position: 0 -1800px
 	}
 }
 
@@ -9960,7 +9960,7 @@ figure.team-slanted:hover .member-position {
 		background-position: 0 0
 	}
 	to {
-		background-position: 0 -1450px
+		background-position: 0 -1800px
 	}
 }
 
