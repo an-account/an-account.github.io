@@ -120,7 +120,7 @@
 
 .navbar-wrapper .navbar-item:hover a,
 .navbar-wrapper .navbar-item.has-dropdown:hover a {
-	background: transparent
+	/* background: transparent */
 }
 
 .navbar-wrapper .navbar-item.is-menu:hover {
@@ -2571,8 +2571,10 @@ footer.footer-light-medium .small-footer-logo {
 
 .button.primary-btn {
 	outline: none;
-	border-color: #279090;
-	background-color: #279090;
+	border-color: #D82F82
+;
+	background-color: #D82F82
+;
 	color: #fff;
 	transition: all 0.5s
 }
@@ -2587,18 +2589,18 @@ footer.footer-light-medium .small-footer-logo {
 }
 
 .button.primary-btn.btn-outlined {
-	border-color: #279090;
-	color: #279090;
+	border-color: #D82F82;
+	color: #D82F82;
 	background-color: transparent
 }
 
 .button.primary-btn.btn-outlined:hover {
 	color: #fff;
-	background-color: #279090
+	background-color: #D82F82
 }
 
 .button.primary-btn:focus {
-	border-color: #279090
+	border-color: #D82F82
 }
 
 .button.secondary-btn {
@@ -8629,15 +8631,15 @@ button i.sl-icon-arrow-down {
 }
 
 .header-pricing .header-pricing-card.primary .plan-name {
-	background: #8B8BAB
+	background: #BBCCEE
 }
 
 .header-pricing .header-pricing-card.secondary .plan-name {
-	background: #8B8BAB
+	background: #BBCCEE
 }
 
 .header-pricing .header-pricing-card.accent .plan-name {
-	background: #8B8BAB
+	background: #BBCCEE
 }
 
 
