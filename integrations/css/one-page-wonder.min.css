@@ -1,0 +1,348 @@
+/*!
+ * Start Bootstrap - One Page Wonder v5.0.1 (https://startbootstrap.com/template-overviews/one-page-wonder)
+ * Copyright 2013-2018 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-one-page-wonder/blob/master/LICENSE)
+ */
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono:300,300i');
+
+body, h2, h3, h4, h5, h6 {
+	font-family: 'Roboto Mono', monospace;
+}
+
+h1 {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+}
+
+section, header {
+	min-height: 100vh;
+	resize: both;
+}
+
+input, textarea { 
+  margin: .8em auto;
+  font-family: inherit; 
+  text-transform: inherit; 
+  font-size: inherit;
+  border-radius: 15px;
+  display: block; 
+  width: 280px; 
+  padding: .4em;
+  outline: none;
+  border-style:solid;
+}
+textarea {
+	height: 80px;
+	resize: none;
+}
+
+body {
+    font-size: 24px !important;
+}
+
+h1 {
+    font-weight: bold !important;
+    font-size: 2em !important;
+}
+
+h2 {
+    font-size: 1.5em !important;
+}
+
+h3 {
+    font-size: 1.25em !important;
+}
+
+h4{
+    font-size: 1em !important;
+}
+
+h5 {
+    font-size: 1em !important;
+}
+
+h6 {
+    font-size: 1em !important;
+}
+
+p {
+    font-size: 1em !important;
+}
+
+@media (max-width:767px) {
+    body {
+        font-size: 16px !important;
+    }
+
+    h1 {
+        font-size: 2em !important;
+        font-weight: bold !important;
+    }
+
+    h2 {
+        font-size: 1.5em !important;
+    }
+
+    h3 {
+        font-size: 1.25em !important;
+    }
+
+    h4{
+        font-size: 1em !important;
+    }
+
+    h5 {
+        font-size: 1em !important;
+    }
+
+    h6 {
+        font-size: 1em !important;
+    }
+
+    p {
+        font-size: 1em !important;
+    }
+}
+
+.button {
+  border: none;
+  color: rgb(39, 144, 144);
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 15px;
+}
+
+.wrapper {
+  justify-content: center;
+  align-items: center;
+  background: rgb(39, 144, 144) url("../img/wrapper-bg.svg") repeat-y;
+  background-size: contain;
+  position: relative;
+  z-index: 4;
+}
+
+.button:hover {
+  opacity: 0.6;
+  transition: 0.3s;
+}
+
+.button:focus {
+	outline:0;
+}
+
+.button:active {
+	-moz-box-shadow: inset 0 0 3px #000000;
+  -webkit-box-shadow: inset 0 0 3px #000000;
+	box-shadow: inset 0 0 3px #000000;
+}
+
+.nav-link {
+	text-align: center;
+	margin: 4px 30px;
+	padding: 15px 32px;
+}
+
+.btn-xl {
+	text-transform: uppercase;
+	padding: 1.5rem 3rem;
+	font-size: .9rem;
+	font-weight: 700;
+	letter-spacing: .1rem
+}
+
+.bg-black {
+	background-color: #000 !important
+}
+
+.rounded-pill {
+	border-radius: 5rem
+}
+
+.navbar-custom {
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+	background-color: rgba(7, 94, 94)
+}
+
+.navbar-custom .navbar-brand {
+	text-transform: uppercase;
+	font-size: 1rem;
+	letter-spacing: .1rem;
+	font-weight: 700
+}
+
+.navbar-custom .navbar-nav .nav-item .nav-link {
+	text-transform: uppercase;
+	font-size: .8rem;
+	font-weight: 700;
+	letter-spacing: .1rem
+}
+
+header.masthead {
+	/*background-image: url("../img/base.jpg");*/
+	position: relative;
+	overflow: hidden;
+	padding-top: calc(7rem + 72px);
+	padding-bottom: 7rem;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-attachment: scroll;
+	background-size: cover
+}
+
+header.masthead .masthead-content {
+	z-index: 1;
+	position: relative
+}
+
+header.masthead .masthead-content .masthead-heading {
+	font-size: 4rem
+}
+
+header.masthead .masthead-content .masthead-subheading {
+	font-size: 2rem
+}
+
+header.masthead .bg-circle {
+	z-index: 0;
+	position: absolute;
+	border-radius: 100%;
+	background: -webkit-gradient(linear, left bottom, left top, from(#ee0979), to(#ff6a00));
+	background: linear-gradient(0deg, #ee0979 0, #ff6a00 100%)
+}
+
+header.masthead .bg-circle-1 {
+	height: 90rem;
+	width: 90rem;
+	bottom: -55rem;
+	left: -55rem
+}
+
+header.masthead .bg-circle-2 {
+	height: 50rem;
+	width: 50rem;
+	top: -25rem;
+	right: -25rem
+}
+
+header.masthead .bg-circle-3 {
+	height: 20rem;
+	width: 20rem;
+	bottom: -10rem;
+	right: 5%
+}
+
+header.masthead .bg-circle-4 {
+	height: 30rem;
+	width: 30rem;
+	top: -5rem;
+	right: 35%
+}
+
+@media (min-width:992px) {
+	header.masthead {
+		padding-top: calc(10rem + 55px);
+		padding-bottom: 10rem
+	}
+
+	header.masthead .masthead-content .masthead-heading {
+		font-size: 6rem
+	}
+
+	header.masthead .masthead-content .masthead-subheading {
+		font-size: 4rem
+	}
+
+}
+
+.background-one {
+	background-color: rgb(200, 248, 198) !important
+}
+
+.background-two {
+	background-color: rgb(39, 144, 144) !important
+}
+
+.background-three {
+	background-color: rgb(7, 94, 94) !important
+}
+
+.background-four {
+	background-color: rgb(48, 176, 172) !important
+}
+
+.btn-primary {
+	background-color: #128c7e;
+	border-color: #128c7e
+}
+
+.btn-primary:active, .btn-primary:focus, .btn-primary:hover {
+	background-color: #075e54 !important;
+	border-color: #075e54 !important
+}
+
+.btn-primary:focus {
+	-webkit-box-shadow: 0 0 0 .2rem rgba(238, 9, 121, .5);
+	box-shadow: 0 0 0 .2rem rgba(238, 9, 121, .5)
+}
+
+.btn-secondary {
+	background-color: #ff6a00;
+	border-color: #ff6a00
+}
+
+.btn-secondary:active, .btn-secondary:focus, .btn-secondary:hover {
+	background-color: #c50 !important;
+	border-color: #c50 !important
+}
+
+.btn-secondary:focus {
+	-webkit-box-shadow: 0 0 0 .2rem rgba(255, 106, 0, .5);
+	box-shadow: 0 0 0 .2rem rgba(255, 106, 0, .5)
+}
+.icon-services {
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+	max-height: 300px;
+}
+.icon-logo {
+	max-width: 150px;
+	max-height: auto;
+}
+.green-text {
+	color: rgb(39, 144, 144);
+}
+.light-text {
+	color: rgb(200, 248, 198);
+}
+.box {
+	background: rgb(7, 94, 94);
+	display: inline-block;
+	box-shadow: 0 2px 2px rgba(200, 248, 198,.4);
+}
+@media (min-width: 1000px) {
+    .head{
+        max-width: 750px;
+    }
+}
+#contactForm, #feedback, #get-demo { 
+  display: none;
+  z-index: 1000;
+  padding: 2em;
+  width: 400px;
+  text-align: center;
+  position: fixed;
+  top:50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+  -webkit-transform: translate(-50%,-50%);
+  border-radius: 15px;
+  
+}
