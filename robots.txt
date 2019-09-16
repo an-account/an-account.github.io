@@ -4,3 +4,4 @@ Disallow: /img/
 Disallow: /corporate/
 Disallow: /404.html
 Disallow: /privacy_policy.html
+Disallow: /GreenflyAI_GDPR_and_Privacy_Policy.pdf
