@@ -3,6 +3,6 @@ Disallow: /assets/
 Disallow: /img/
 Disallow: /corporate/
 Disallow: /404.html
-Disallow: /inverstor-demo.html
+Disallow: /investor-demo.html
 Disallow: /privacy_policy.html
 Disallow: /GreenflyAI_GDPR_and_Privacy_Policy.pdf
